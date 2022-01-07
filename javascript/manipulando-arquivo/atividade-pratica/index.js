@@ -60,4 +60,3 @@ console.log(calculaIdade.call(pessoa2, 30));*/
 /*for (let i = 0; i < array.length; i++) {
     console.log(array[i])
 }*/
-

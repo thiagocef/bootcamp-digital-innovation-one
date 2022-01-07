@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root {
+    --cor00: #E50914;
+    --cor01: #141414;   
+    --cor02: #AAA; 
+    --cor03: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*os elementos internos não ultrapassam a borda da caixa*/
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: 'Times New Roman', Times;
+    color: var(--cor03);
+}
+
+header .container {
+    display: flex;
+    align-items: center; /*alinha os elementos verticalmente*/
+    justify-content: space-between; /*cria um espaço jorizontal entre os elementos*/
+}
+
+header .logo {
+    color: var(--cor00);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cor02);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--cor03);
+}
