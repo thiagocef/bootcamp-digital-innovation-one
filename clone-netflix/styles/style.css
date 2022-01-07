@@ -20,6 +20,7 @@ body {
     color: var(--cor03);
 }
 
+/*========================header===========================*/
 header .container {
     display: flex;
     align-items: center; /*alinha os elementos verticalmente*/
@@ -42,4 +43,24 @@ header nav a {
 
 header nav a:hover {
     color: var(--cor03);
+}
+
+/*========================filme-principal===========================*/
+.filme-principal {
+    background: linear-gradient(rgb(0 , 0, 0, .50), rgb(0 , 0, 0, .50)100%), url('../img/breakin-bad-capa.jpg') top center no-repeat;
+    background-size: cover;
+
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
