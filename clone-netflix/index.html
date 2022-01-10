@@ -8,6 +8,10 @@
 
     <link rel="stylesheet" href="styles/style.css">
 
+    <!--link dos arquivos owl css-->
+    <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+
 </head>
 <body>
     <header> <!--inicio do header-->
@@ -39,20 +43,69 @@
 
                 <div class="botoes"> <!--div botões-->
                     <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
                         ASISTIR AGORA
                     </button>
 
                     <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
                         LEMBRETE
                     </button>
                 </div> <!--fim da div botões-->
 
             </div> <!--fim div container-->
 
-            
-
         </div> <!--fim de filme principal-->
 
     </main> <!--fim do main - conteúdo principal-->
+
+    <div class="carrossel-filmes"> <!--carrossel de filmes-->
+
+        <div class="owl-carousel owl-theme">
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/chernobyl.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/cobra-kai.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/dark.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/olhos-que-condenam.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/os-simpsons.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/stranger-things.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/vikings.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/miniaturas/you.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div> <!--fim do carrossel de filmes-->
+
+    <script src="https://kit.fontawesome.com/9c69f148fa.js" crossorigin="anonymous"></script> <!--link= dos icones-->
+    
+    <!--scrips js para o owl carousel-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+
+    <!--chamando script do arquivo js para carregar o carrossel-->
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
