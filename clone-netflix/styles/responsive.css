@@ -4,9 +4,24 @@
         flex-direction: column;
     }
 
+    nav {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .filme-principal .container {
+        min-width: 90%;
+    }
+
+    .botoes {
+        text-align: center;
+        
+    }
+
     .botao {
         margin-top: 5px;
         width: 190px;
+        
     }
 
 }
